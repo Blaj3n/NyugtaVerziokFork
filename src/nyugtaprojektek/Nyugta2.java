@@ -9,15 +9,14 @@ azt kiszervezzük változóba és erre hivatkozunk
 public class Nyugta2 {
 
     public static void main(String[] args) {
-        String x = "******************";
-        String y = "==================";
-        String z = "------------------";
-        String a = "_______";
-        //System.out.println("******************");
         String csillagok = "*******************";
+        String duplaVonal = "===================";
+        String szaggatottVonal = "-------------------";
+        String rovidVonal = "_______";
+        String rovidVonalValaszto = "     ";
+        
         System.out.println(csillagok);
         System.out.println("     Nyugta 2");
-        //System.out.println("******************");
         System.out.println(csillagok);
         
         String huf = "Ft";
@@ -29,16 +28,14 @@ public class Nyugta2 {
         //System.out.println("Tétel 3:    1320 Ft");
         System.out.printf("Tétel 3:    %d %s\n", tetel3, huf);
 
-        //System.out.println("==================");
-        String duplaVonal = "===================";
+        
         System.out.println(duplaVonal);
         
         //System.out.println("Összesen:   1090 Ft");
         int osszesen = tetel1 + tetel2 + tetel3;
         System.out.printf("Összesen:   %d %s\n", osszesen, huf);
         
-        //System.out.println("------------------");
-        String szaggatottVonal = "-------------------";
+
         System.out.println(szaggatottVonal);
         
         int kedvMertek = 10;
@@ -48,7 +45,6 @@ public class Nyugta2 {
         //System.out.println("(10%)");
         System.out.printf("(%d%%)\n", kedvMertek);
         
-        //System.out.println("==================");
         System.out.println(duplaVonal);
         
         int fizetendo = osszesen - kedvezmeny;
@@ -59,7 +55,6 @@ public class Nyugta2 {
         System.out.printf("            %f %s\n", euro, huf);
         
         
-        //System.out.println("------------------");
         System.out.println(szaggatottVonal);
         
         System.out.println("");
@@ -67,9 +62,8 @@ public class Nyugta2 {
         //System.out.print("   ");
         //System.out.println("_______");
         
-        String rovidVonal = "_______";
+        
         System.out.print(rovidVonal);
-        String rovidVonalValaszto = "     ";
         System.out.print(rovidVonalValaszto);
         System.out.println(rovidVonal);
         
@@ -79,11 +73,9 @@ public class Nyugta2 {
         
         System.out.println("   Név");
         
-        //System.out.println("******************");
         System.out.println(csillagok);
         
         System.out.println("        CÉG");
-        //System.out.println("******************");
         System.out.println(csillagok);
     }
 

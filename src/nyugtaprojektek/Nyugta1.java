@@ -7,6 +7,7 @@ public class Nyugta1 {
         String duplaVonal = "==================";
         String szaggatottVonal = "------------------";
         String rovidVonal = "_______";
+        
         System.out.println(csillagok);
         System.out.println("     Nyugta 1");
         System.out.println(csillagok);

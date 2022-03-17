@@ -8,6 +8,11 @@ public class Nyugta3 {
 
     public static void main(String[] args) {
         String csillagok = "********************";
+        String duplaVonal = "====================";
+        String szaggatottVonal = "--------------------";
+        String rovidVonal = "_______";
+        String rovidVonalValaszto = "      ";
+        
         System.out.println(csillagok);
         //System.out.println("     Nyugta 3");
         System.out.printf("%14s\n", "Nyugta 3");
@@ -22,14 +27,12 @@ public class Nyugta3 {
         System.out.printf("%10s: %5d %s\n", "Tétel 2", tetel2, HUF);
         System.out.printf("%10s: %5d %s\n", "Tétel 3", tetel3, HUF);
 
-        String duplaVonal = "====================";
         System.out.println(duplaVonal);
         
         int osszesen = tetel1 + tetel2 + tetel3;
         //System.out.printf("Összesen:   %d %s\n", osszesen, huf);
         System.out.printf("%10s: %5d %s\n", "Összesen", osszesen, HUF);
         
-        String szaggatottVonal = "--------------------";
         System.out.println(szaggatottVonal);
         
         int szervizDijMertek = 10;
@@ -57,9 +60,8 @@ public class Nyugta3 {
         System.out.println(szaggatottVonal);
         
         System.out.println("");
-        String rovidVonal = "_______";
         System.out.print(rovidVonal);
-        String rovidVonalValaszto = "      ";
+        
         System.out.print(rovidVonalValaszto);
         System.out.println(rovidVonal);
         System.out.print(" Dátum");
