@@ -9,6 +9,10 @@ azt kiszervezzük változóba és erre hivatkozunk
 public class Nyugta2 {
 
     public static void main(String[] args) {
+        String x = "******************";
+        String y = "==================";
+        String z = "------------------";
+        String a = "_______";
         //System.out.println("******************");
         String csillagok = "*******************";
         System.out.println(csillagok);
